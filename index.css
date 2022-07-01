@@ -1,0 +1,484 @@
+body{
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url("images5.jpg");
+    background-size:cover;  
+    height: 80vh;
+
+}
+#head{
+    background-color: black;
+    opacity: 0.8;
+    height: 80vh;
+}
+#barre-menu{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    background-attachment: fixed;
+    opacity: 1;
+    
+}
+
+#mon-logo{
+    margin-left: 100px;
+    color: rgb(17, 128, 231);
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+}
+.table{
+	justify-content: end;
+    
+	  
+}
+nav{
+    position: fixed;
+	width: 100%;
+    opacity: 1;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav a{
+      display: inline-block;
+      text-decoration: none;
+      padding: 20px 30px;
+      color:black;
+      text-transform: capitalize;
+      font-size: 12px;
+      
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-weight: bold;
+    color:white;
+    height: 70vh;
+}
+
+.icone{
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    width: 15%;
+    
+}
+.fa-brands{
+    font-size: 30px;
+    border-radius: 50%;
+}
+.fa-instagram:hover{
+    color: red;
+    
+}
+.fa-facebook:hover{
+    color: #2F1FF2;
+    
+}
+.fa-twitter:hover{
+    color: cyan;
+    
+}
+.fa-linkedin:hover{
+    color: rgba(7, 7, 182, 0.568);
+    
+}
+.fa-google:hover{
+    color: red;
+    
+}
+.btn-freequote{
+    background-color: cyan;
+    border: none;
+    width: 200px;
+    height: 50px;
+    
+}
+#profil{
+    padding-top: 10%;
+    margin-left: 200px;
+    height: 60vh;
+    width: 70%;
+    display: flex;
+    justify-content:space-between;
+}
+.img-nd{
+    display: flex;
+    width: 250px;
+    border: 8px 4px 4px 4px white;
+    box-shadow: 8px 8px 8px 8px gray;
+}
+ul{
+    list-style: none;
+}
+.presentation-me{
+    display: flex;
+    justify-content: space-between;
+    margin-right:250px ;
+    margin-bottom: 5%;
+}
+.after::before{
+    content: ":";
+    margin-right: 70px;
+
+}
+.btn-profil{
+    display: flex;
+    width: 400px;
+    height: 25px;
+    justify-content: space-around;
+}
+.fa-contact{
+    font-size: 0.5rem;
+    color: white;
+}
+.work{
+    margin-top: 10%;
+    height: 500px;
+    background-color: gray
+}
+#what{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.les-services{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 23%;
+    height: 60%;
+    text-align: center;
+}
+#les-services:hover{
+    border: 4px 4px 4px 4px whitesmoke;
+    box-shadow: 8px 8px 8px 8px whitesmoke;
+}
+.icon-work{
+    padding-top: 50px;
+    
+}
+.fa-work{
+    font-size: 2.5rem;
+    color: rgb(66, 180, 217);
+}
+
+.education-experience{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    padding-bottom: 5%;
+}
+.education{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.detail-education{
+    display: block;
+    justify-content: space-between;
+
+    
+}
+.icon-education{
+    display: flex;
+    margin-right:px;
+    
+}
+.icon-graduation{
+    width: 40px;
+    height: 40px;
+    border:1px solid white;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 13px;
+    padding-left:13px;
+    background-color: rgb(66, 180, 217);
+}
+.graduation{
+    font-size: 1.5rem;
+    
+    
+}
+.border{
+    border-left: 1px solid black;
+    height: 550px;
+    margin-left: 25px;
+}
+.mes-formations{
+    padding-left: 50px;
+}
+.formation{
+    background-color: gray;
+    height: 170px;
+    width: 450px;;
+    padding-left: 10px;
+    padding-top: 1%;
+    margin-bottom: 3%;
+    
+    
+}
+
+.hide {
+    position: relative;
+}
+
+.hide::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: rgb(17, 128, 231,0.6);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.hide:hover::after {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+} 
+
+.mes-projets{
+    margin-top: 50px;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    
+}
+button{
+    width: 100%;
+    height:200% ;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.my-first-img{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 1.5%;
+    
+}
+.img1{
+    width: 350px;
+    height: 250px;
+}
+
+
+.mes-realisations{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 0%;
+    background-image:url("img-8.png");
+    display: flex;
+    
+    
+}
+.head-realisation{
+    margin-top:3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    
+}
+.body-realisation{
+    text-align: center;
+}
+.fa-realisation{
+    font-size: 3.5rem;
+    
+}
+.contact{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 130vh;
+    margin-bottom: 5%;
+}
+.head-contact{
+    background-color: gray;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    height: 125vh;
+    
+    
+    
+}
+.body-contact{
+    display: flex;
+    margin-bottom: 5%;
+}
+.contact-from{
+    padding-left: 20px;
+}
+.name-email{
+    display: flex;
+    padding-right: 20px;
+    padding-bottom: 5%;
+    justify-content: space-between;
+
+}
+.nom{
+    height: 40px;
+    width: 200px;
+    margin-right:10px;
+}
+.head-subject{
+    padding-bottom: 5%;
+}
+.subject{
+    height: 40px;
+    width: 420px;
+}
+.btn-form{
+    height: 25px;
+    width: 150px;
+    padding-top: 25px;
+}
+.contact-address{
+    margin-left: 100px;
+}
+.address{
+    height:250px;
+    width: 350px;
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.position{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 5%;
+    display: flex;
+    text-align: center;
+    
+}
+.icon-position{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(66, 180, 217) ;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    margin-top: 10px;
+}
+.fa-location{
+    font-size: 1rem;
+}
+.nom-address{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    
+}
+.mail{
+    display: block;
+    margin-top: -10px;
+}
+.icon-mail{
+    margin-top: -8px;
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(66, 180, 217) ;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    
+}
+#map{
+    height: 60vh;
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    
+    
+
+}
+.head-footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.icon-network{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 5%;
+}
+.fa-network{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white ;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+    
+
+
+.fa-footer{
+    font-size: 1rem;
+    color: black;
+}
+
+
